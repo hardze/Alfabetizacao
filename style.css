@@ -1,15 +1,24 @@
 *{
-    height:100vh;
-    width: 100vh;
+    height:1920px;
+    width: 1080px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: #C4FFFF;
   }
   
 canvas {
     display: block;
   }
  
+  header{
+    width: 1980px;
+    height: 170px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+  }
+
 .uniforme{
     position: absolute;
     top: 5px;
