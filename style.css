@@ -10,8 +10,8 @@ canvas {
   }
  
   header{
-    width: 10px;
-    height: 80px;
+    width: 1903.2px;
+    height: 50px;
     position: absolute;
     top: 0px;
     left: 0px;
@@ -19,9 +19,9 @@ canvas {
   }   
   main{
     width: 1920px;
-    height: 815px;
+    height: 772px;
     position: absolute;
-    top: 160px;
+    top: 180px;
     left: 0px;
     background-color: #C4FFFF;
   }
@@ -29,7 +29,7 @@ canvas {
     position: absolute;
     top: 0px;
     left: 0px;
-    width: 750px;
+    width: 900px;
     height: 170px;
     font-size: 70px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -39,7 +39,7 @@ canvas {
 .icon_fone{
   position: absolute;
   top: 15px;
-  left: 960px;
+  left: 1250px;
   height: 127px;
   width: 127px;
 }
@@ -47,5 +47,5 @@ canvas {
 .uniforme{
     position: absolute;
     top: 5px;
-   left: 5px; 
+    left: 5px; 
 }  
