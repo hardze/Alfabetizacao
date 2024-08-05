@@ -4,7 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    background-color: #C4FFFF;
 }
 canvas {
     display: block;
@@ -16,8 +15,16 @@ canvas {
     position: absolute;
     top: 0px;
     left: 0px;
-    background-color: #C4FFFF;
+    background-color: #ffffff;
   }   
+  main{
+    width: 1920px;
+    height: 815px;
+    position: absolute;
+    top: 160px;
+    left: 0px;
+    background-color: #C4FFFF;
+  }
 .txt_inicio{
     position: absolute;
     top: 0px;
@@ -30,7 +37,6 @@ canvas {
   }
 
 .icon_fone{
-  background-color: #C4FFFF;
   position: absolute;
   top: 15px;
   left: 960px;
