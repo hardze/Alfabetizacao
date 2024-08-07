@@ -1,11 +1,5 @@
-function playAudio (){
-    let x = document.getElementById("myAudio");
-    x.play();
-  }
-  
-  function pauseAudio (){
-    let x = document.getElementById("myAudio");
-    x.pause();
-  }
-  
-  
+const audio = document.querySelector('audios/Uniforme.mp3');
+
+function reproduzSom() {
+  audio.play();
+}

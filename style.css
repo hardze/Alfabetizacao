@@ -24,27 +24,26 @@ canvas {
     position: absolute;
     top: 150px;
     left: 0px;
-    background-color: #000000;
+    background-color: #23dbbd;
   }
 .txt_inicio{
     position: absolute;
     top: 10px;
     left: 5px;
-    width: 550px;
+    width: 600px;
     height: 170px;
     font-size: 50px;
     text-align: left;
   }
   .txt_final{
     position: absolute;
-    top: 750px;
+    top: 725px;
     left: 700px;
     width: 550px;
     height: 70px;
     font-size: 50px;
     text-align: left;
   }
-
 .icon_fone{
   position: absolute;
   text-align: center;
@@ -66,8 +65,8 @@ canvas {
 }
 .background{
   width: 1920px;
-  height: 500px;
+  height: 780px;
   position: absolute;
-  top: -35px;
+  top: 0px;
   left: 0px;
 }
