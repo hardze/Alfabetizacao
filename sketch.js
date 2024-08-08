@@ -1,5 +1,7 @@
-const audio = document.querySelector('audios/Uniforme.mp3');
+let play = document.getElementById("icon_fone");
 
 function reproduzSom() {
-  audio.play();
+  let audio = new Audio("audios/Uniforme.mp3");
+  audio.play()
 }
+play.addEventListener("click", reproduzSom);
