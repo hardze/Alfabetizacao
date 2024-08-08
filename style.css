@@ -58,10 +58,10 @@ canvas {
   height: 550px;
   width: 300px;
 }
-.uniforme{
+.avançar{
     position: absolute;
     top: 5px;
-    left: 5px; 
+    left: 1500px; 
 }
 .background{
   width: 1920px;
