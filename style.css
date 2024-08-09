@@ -1,17 +1,17 @@
 *{
-    height: 920px;
-    width: 80px;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
-canvas {
-    display: block;
-  }
- 
-  header{
-    width: 1920px;
+
+html{
+  height: 100vh;
+}
+
+header{
+    max-width: 1280px;
+    margin: auto;
     height: 50px;
     position: absolute;
     top: 0px;
@@ -19,6 +19,7 @@ canvas {
     background-color: #ffffff;
   }   
   main{
+    margin: auto;
     width: 1920px;
     height: 802.5px;
     position: absolute;
@@ -26,6 +27,15 @@ canvas {
     left: 0px;
     background-color: #98FFFF;
   }
+
+  .retangulo{
+    border-top: 70px solid #ffffff;
+    border-left: 30px solid transparent;
+    border-right: 15px solid transparent;
+    height: 0;
+    width: 120px;
+    }
+
 .txt_inicio{
     position: absolute;
     top: 10px;
@@ -63,7 +73,7 @@ canvas {
     width: 102px;
     height: 102px;
     top: 5px;
-    right: 25px;
+    left: 1800px;
 }
 p{
   position: absolute;
@@ -71,6 +81,7 @@ p{
   text-align: center;
   top: 105px;
   left: 2px;
+  text-decoration: none;
 }
 .seta{
   position: absolute;
