@@ -28,6 +28,33 @@ header{
     background-color: #FFE3EB;
   }
 
+  .container {
+    max-width: 1300px;
+    margin: 0 auto;
+    border: 2.5px solid #ccc;
+  }
+  
+  .item {
+    width: 350px;
+    height: 300px;
+    margin: 15px;
+    background: #ffff;
+    text-align: center;
+    font-size: 2.5em;
+    border-radius: 30px;
+  }
+
+  .flex {
+    display: flex;
+  }
+
+  h1 {
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 1.75em;
+    font-weight: normal;
+  }
+
 .txt_inicio{
     position: absolute;
     top: 10px;
