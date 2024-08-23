@@ -22,15 +22,21 @@ header{
     left: 0px;
     background-color: #ffffff;
   }   
-  main{
+  main {
     margin: auto;
     width: 1920px;
     height: 802.5px;
     position: absolute;
     top: 150px;
     left: 0px;
+    display: flex;
     background-color: #98FFFF;
-  }
+    align-content: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
 
   .container {
     align-items: center;
@@ -53,6 +59,7 @@ header{
 
   .flex {
     display: flex;
+    padding: 150px;
   }
 
   h1 {
