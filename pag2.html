@@ -1,32 +1,30 @@
 <!DOCTYPE html>
 <html lang="pt-br">
   <head>
-    <link rel="stylesheet" type="text/css" href="pag2.css">
+    <link rel="stylesheet" type="text/css" href="css/pag2.css">
     <meta charset="utf-8" />
   </head>
   <body>
     <header>
-      <a href="?.html"><div class="avançar">
+      <input type="submit" class="avançar" id="avancar" onclick="avancar(); return false">
         <p>Avançar</p>
         <img class="seta" src="images/seta.png">
-      </div></a>
+      </input>
       <script src="js/pag2.js"></script>
       <div class="txt_inicio">Clique no alto-falante para reproduzir o áudio.</div>
       <img class="icon_fone" id="icon_fone" onclick="reproduzSom()" src="images/icon_fone.png" alt="Icone de audio">
     </header>
     <main>
       <h1>Digite a palavra reproduzida no áudio:</h1>
-      <section class="container flex">
-        <div class="item">Teste 1</div>
-        <div class="item">Teste 2</div>
-        <div class="item">Teste 3</div>
-        <div class="item">Teste 4</div>
-        <div class="item">Teste 5</div>
-        <div class="item">Teste 6</div>
-        <div class="item">Teste 7</div>
-        <div class="item">Teste 8</div>
-      </section>
-        <img src="images/back_menina.png" class="background">
+      <form>
+        <input type="text" id="letra1"></input>
+        <input type="text" id="letra2"></input>
+        <input type="text" id="letra3"></input>
+        <input type="text" id="letra4"></input>
+        <input type="text" id="letra5"></input>
+        <input type="text" id="letra6"></input>
+        <input type="text" id="letra7"></input>
+      </form>
         <div class="txt_final">Substantivo feminino</div>
         <img class="menina" src="images/menina.png">
     </main>
